@@ -1,0 +1,19 @@
+#!/bin/bash
+# This is a test script to show how to check for a service using ansible facts
+# Docker's default runtime `runc` lacks the capability to run a system container
+# which means it can't run init systems like systemd by default.
+# SO YOU CAN'T USE SYSTEMCTL IN A DOCKER CONTAINER
+# instead use something like `service httpd status` command or
+# use this method if you ain't able to check the status or perform
+# some operations in the Docker Container
+
+
+status=$(ps -ef | grep httpd | grep -v grep | wc -l)
+
+if [[ $status == 0 ]]
+then
+	state="down"
+else
+	state="running"
+fi
+echo "{\"state\": \"$state\"}"

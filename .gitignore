@@ -1,0 +1,6 @@
+.*
+!.gitignore
+Using\ Docker\ Compose\ to\ run\ the\ environment/ansible_config/*
+!Using\ Docker\ Compose\ to\ run\ the\ environment/ansible_config/ansible.cfg
+!Using\ Docker\ Compose\ to\ run\ the\ environment/ansible_config/hosts
+!Using\ Docker\ Compose\ to\ run\ the\ environment/ansible_config/facts.d/
