@@ -18,7 +18,7 @@ If you have not installed `docker` in your machine then [install `docker`](INSTA
 
 Run this in your terminal in the same directory as this project:
 ```bash
-git clone --depth 1 https://github.com/hussain1406/learn-ansible-using-docker && cd learn-ansible-using-docker
+git clone --depth 1 https://github.com/sdhmh/learn-ansible-using-docker && cd learn-ansible-using-docker
 cd "docker_compose" && docker compose up -d
 ```
 and done! Docker will automatically pull the images and create "**6 containers**" (🚀🚀).
