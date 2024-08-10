@@ -7,7 +7,7 @@ The one and only reason of using docker containers in this project is memory eff
 
 In normal circumstances, if you were to run 5 machines (may it be VM or Physical). It would cost you more money, RAM and Hardware. By using these containers one can virtually do anything which he/she could have done in those 5 machines using Ansible and by only spending a total amount of 70 MBs of RAM!
 
-This means you can easily run the whole setup on a normal 4 GB RAM Laptop/PC.
+This means you can easily run the whole setup on a normal 4-8 GB RAM Laptop/PC.
 
 That's the actual idea behind creating this project.
 
